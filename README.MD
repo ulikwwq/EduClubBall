@@ -23,4 +23,4 @@ EduClub - это веб-платформа для управления люби�
 
 ## Установка
 
-   git clone https://github.com/ulikwwq/educlub.git
+   git clone https://github.com/ulikwwq/EduClubBall.git
