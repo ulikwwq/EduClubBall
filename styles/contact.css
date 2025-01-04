@@ -1,0 +1,55 @@
+/* Заголовок страницы */
+.contact-header {
+    background: linear-gradient(to bottom, #007bff, #0056b3);
+    color: #fff;
+    padding: 50px 0;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Контактная информация */
+.contact-info .contact-icon {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Форма обратной связи */
+.contact-form .form-control {
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #004085;
+}
+
+.contact-section {
+    background: #f8f9fa;
+}
+
+.contact-info {
+    border-left: 5px solid #0d6efd;
+}
+
+.contact-info h4 {
+    color: #0d6efd;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info .btn {
+    width: 100%;
+}
