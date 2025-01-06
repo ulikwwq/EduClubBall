@@ -160,6 +160,60 @@
     margin: 10px; /* Отступы между блоками */
 }
 
+/*  блоки новостей и рекомендаций одинакового размера */
+
+.news-box {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Занимает всю высоту родительского контейнера */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-box img {
+    max-height: 150px; /* Ограничение высоты изображений */
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.news-box h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.news-box p {
+    font-size: 1rem;
+    color: #6c757d;
+    flex-grow: 1; /* Растягивает текст, чтобы заполнить пространство */
+    margin-bottom: 15px;
+}
+
+.news-box a {
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.news-box a:hover {
+    background-color: #0056b3;
+}
+
+.row.g-4 .col {
+    display: flex;
+}
+
+
 @media (max-width: 992px) {
     .news .col-lg-3 {
         flex: 1 1 calc(33.333% - 20px); /* 3 блока в ряд на экранах <992px */
