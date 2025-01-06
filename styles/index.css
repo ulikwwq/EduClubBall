@@ -213,6 +213,14 @@
     display: flex;
 }
 
+footer {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #6c757d;
+    background-color: transparent; /* Убрать фон */
+    border-top: 1px solid #dee2e6; /* Легкая граница сверху */
+}
 
 @media (max-width: 992px) {
     .news .col-lg-3 {

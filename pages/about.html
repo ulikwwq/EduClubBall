@@ -3,17 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>О проекте</title>
+    <meta name="description" content="EduClub – платформа для управления любительскими клубами в Кыргызстане.">
+    <meta name="keywords" content="EduClub, клубы, управление, тренеры, ученики, родители">
+    <meta name="author" content="EduClub Team">
+    <title>О проекте - EduClub</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/navbar.css">
     <link rel="stylesheet" href="../styles/about.css">
 </head>
 <body>
-    <!-- Хэдер с навигацией -->
+    <!-- Навигация -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
             <a class="navbar-brand" href="../index.html">EduClub</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключить навигацию">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -29,58 +32,85 @@
     </nav>
 
     <!-- Основной контент -->
-    <section class="about py-5">
-        <div class="container">
-            <h1 class="text-center mb-4">О проекте EduClub</h1>
-            <p class="lead text-center">
-                EduClub — это платформа для любительских клубов Кыргызстана, разработанная с целью сделать управление клубами проще и удобнее.
-            </p>
-            <div class="row mt-5">
-                <!-- Миссия -->
-                <div class="col-md-6">
-                    <h3>Наша миссия</h3>
-                    <p>
-                        Мы стремимся улучшить организацию работы клубов, помогая тренерам, родителям и ученикам эффективно взаимодействовать друг с другом.
-                    </p>
-                </div>
-                <!-- Функционал -->
-                <div class="col-md-6">
-                    <h3>Наш функционал</h3>
-                    <ul>
-                        <li>Отметка посещаемости учеников.</li>
-                        <li>Учет оплаты занятий.</li>
-                        <li>Чаты с родителями и тренерами.</li>
-                        <li>Личные кабинеты для участников.</li>
-                        <li>Новости, рекомендации и расписание занятий.</li>
-                    </ul>
+    <main>
+        <section class="about-section py-5">
+            <div class="container">
+                <h1 class="text-center mb-4">О проекте EduClub</h1>
+                <p class="lead text-center mb-5">
+                    EduClub – это современная платформа, предназначенная для поддержки и управления любительскими клубами в Кыргызстане. 
+                    Наша миссия – облегчить взаимодействие между тренерами, учениками и родителями, предоставляя удобные инструменты для организации и контроля учебного процесса.
+                </p>
+
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="feature-box d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill feature-icon me-3 text-primary"></i>
+                            <div>
+                                <h5>Отметка посещаемости</h5>
+                                <p>Удобный учет посещаемости учеников на каждом занятии, позволяющий тренерам легко отслеживать присутствие.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box d-flex align-items-start">
+                            <i class="bi bi-cash-stack feature-icon me-3 text-primary"></i>
+                            <div>
+                                <h5>Учет оплаты</h5>
+                                <p>Контроль оплаты занятий, помесячно или поурочно, обеспечивая прозрачность и удобство для родителей и тренеров.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box d-flex align-items-start">
+                            <i class="bi bi-chat-dots-fill feature-icon me-3 text-primary"></i>
+                            <div>
+                                <h5>Чат с родителями</h5>
+                                <p>Легкая связь между тренерами и родителями через WhatsApp, обеспечивая оперативное общение и обмен информацией.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box d-flex align-items-start">
+                            <i class="bi bi-person-circle feature-icon me-3 text-primary"></i>
+                            <div>
+                                <h5>Личные кабинеты</h5>
+                                <p>Персональные кабинеты для тренеров и родителей, предоставляющие доступ к необходимой информации и настройкам.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box d-flex align-items-start">
+                            <i class="bi bi-bell-fill feature-icon me-3 text-primary"></i>
+                            <div>
+                                <h5>Новости и рекомендации</h5>
+                                <p>Полезная информация, медицинские советы, группы и локации, помогающие в развитии и обучении.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="feature-box d-flex align-items-start">
+                            <i class="bi bi-geo-alt-fill feature-icon me-3 text-primary"></i>
+                            <div>
+                                <h5>Мобильная доступность</h5>
+                                <p>Платформа адаптирована для использования на смартфонах и планшетах, что делает её удобной в любой ситуации.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row mt-4">
-                <!-- Ценности -->
-                <div class="col-md-6">
-                    <h3>Наши ценности</h3>
-                    <p>
-                        Мы ценим прозрачность, удобство и доступность. Наша цель — создать платформу, которая поможет каждому клубу в Кыргызстане расти и развиваться.
-                    </p>
-                </div>
-                <!-- Почему EduClub? -->
-                <div class="col-md-6">
-                    <h3>Почему EduClub?</h3>
-                    <p>
-                        EduClub — это не просто платформа, это сообщество, объединяющее тренеров, учеников и их родителей для достижения лучших результатов.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Футер -->
-    <footer class="bg-light py-4">
-        <div class="container text-center">
-            <p class="mb-0">© 2025 EduClub. Все права защищены.</p>
+    <footer class="bg-light text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 EduClub. Все права защищены.</p>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+
+ 
