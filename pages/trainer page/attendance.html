@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отметка посещаемости</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/trainer page style/attendance.css">
+</head>
+<body>
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Отметка посещаемости</h2>
+        <!-- Список групп -->
+        <div id="group-list" class="list-group">
+            <!-- Динамически загружаемые группы -->
+            <a href="#" class="list-group-item list-group-item-action" data-group-id="1">Группа 1</a>
+            <a href="#" class="list-group-item list-group-item-action" data-group-id="2">Группа 2</a>
+            <a href="#" class="list-group-item list-group-item-action" data-group-id="3">Группа 3</a>
+        </div>
+
+        <!-- Список учеников -->
+        <div id="student-list" class="container my-5" style="display: none;">
+            <h3 class="text-center mb-4">Ученики группы</h3>
+            <form id="attendance-form">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Имя ученика</th>
+                            <th>Посещаемость</th>
+                            <th>Присутствие</th>
+                            <th>Отсутствие</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Динамически загружаемые данные -->
+                    </tbody>
+                </table>
+                <button type="submit" class="btn btn-primary">Сохранить изменения</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/scripts/attendance.js"></script>
+</body>
+</html>

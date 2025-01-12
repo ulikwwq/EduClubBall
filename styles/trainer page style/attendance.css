@@ -1,0 +1,12 @@
+/* attendance.css */
+#group-list .list-group-item {
+    font-size: 1.2rem;
+}
+
+#student-list table {
+    width: 100%;
+}
+
+#student-list td, #student-list th {
+    text-align: center;
+}

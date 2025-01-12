@@ -1,8 +1,10 @@
 body {
-    background-color: #f5f7fa;
+    background: linear-gradient(135deg, #f5f7fa, #e2e6ea);
 }
+
 .card {
     border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Мягкая тень */
 }
 
 footer {
@@ -12,4 +14,13 @@ footer {
     color: #6c757d;
     background-color: transparent; /* Убрать фон */
     border-top: 1px solid #dee2e6; /* Легкая граница сверху */
+}
+
+footer a:hover {
+    color: #007bff; /* Цвет при наведении */
+    text-decoration: underline;
+}
+
+button, input, select {
+    transition: all 0.3s ease; /* Плавный переход для интерактивных элементов */
 }
